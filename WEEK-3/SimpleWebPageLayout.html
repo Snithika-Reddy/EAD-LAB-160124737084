@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SIMPLE WEB PAGE LAYOUT</title>
+        <style>
+            body
+            {
+                height:100vh;
+                background-color:rgb(168, 225, 209);
+                flex-direction:column;
+            }
+            header
+            {
+                background-color: darkorchid;
+                color:azure;
+                text-align:center;
+                padding:5px;
+            }
+            .container
+            {
+              position: relative;  
+              left: 5px;
+              bottom: 215px;
+              right: inherit;
+            }
+            .main
+            {
+             position: relative;
+             left: 100px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h2>SIMPLE WEB PAGE</h2>
+        </header>
+        <div class="main">
+            <p>
+                The Mahabharata is not just the story of a war 
+                — it is the story of life itself. Written in 
+                Sanskrit by Sage Ved Vyasa more than 5,000 
+                years ago, this epic contains over one lakh 
+                shlokas, making it the longest poem in the world. 
+                Yet its true greatness lies not in its length but in its lessons.
+                At the centre of the Mahabharata is the struggle between
+                the Pandavas and the Kauravas for the throne of Hastinapur.
+                But beyond the battles, it is about choices, values, friendships,
+                and duties that still matter today. It teaches what happens when
+                greed and jealousy take over, and how truth and righteousness always find a way to shine.
+            </p>
+        </div>
+        <div class="container">
+            <button class="demo">Home</button><br><br>
+            <button class="demo">About</button><br><br>
+            <button class="demo">Services</button><br><br>
+            <button class="demo">Contact</button><br><br>
+        </div>
+        <footer>
+            <p>© 2026 My Website</p>
+        </footer>
+    </body>
+</html>
